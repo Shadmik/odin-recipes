@@ -1,0 +1,28 @@
+@font-face {
+    font-family: indie;
+    src: url(./../fonts/IndieFlower-Regular.ttf);
+}
+body{
+    background-image: url(./../images/bgi.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+#image {
+    text-align: center;
+}
+img {
+    border: 2px solid black;
+}
+#ingredients, #article, #steps {
+    width: 25vw;
+    height: 25vh;
+    overflow-x: hidden;
+}
+#unList {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.rect {
+    display: inline-block;
+}

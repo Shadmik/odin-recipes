@@ -1,0 +1,84 @@
+@font-face {
+    font-family: lobster;
+    src: url(./fonts/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: indie;
+    src: url(./fonts/IndieFlower-Regular.ttf);
+}
+
+body {
+    background-image: url(./images/bgi.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+.centre {
+    text-align: center;
+}
+.indie {
+    font-family: indie;
+}
+.headChild {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+#odin {
+    text-decoration: none;
+    color:rgb(41, 26, 9)
+}
+#odin:hover{
+    color:rgb(97, 81, 11);
+}
+.unList {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.list {
+    text-align: center;
+    display: inline-block;
+}
+.threePhotos {
+    width: 25vw;
+    display: inline-block;
+    margin-left: 2vw;
+    border-radius: 2%;
+}
+.container {
+    position: relative;
+}
+.cent{
+    position: absolute;
+    bottom:0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: indie;
+    font-weight: bolder;
+}
+.threePhotos:hover{
+    width:27vw;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
